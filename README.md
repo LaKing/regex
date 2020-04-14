@@ -14,7 +14,7 @@
 ## Irányítószám
                 re = /^(10[0-9][0-9]|11[0-9][0-9]|12[0-9][0-9]|[2-9][0-9]{3})$/;
                 
-## adószám xxxxxxxx-y-zz formában
+## Adószám xxxxxxxx-y-zz formában
 
                 re = /^([0-9]{8}[\- ]?[1-5][\- ]?[0-5][0-9])$/;
 
@@ -22,7 +22,7 @@
 
                 re = /^([0-9]{8}[ \-][0-9]{8}|[0-9]{8}[ \-][0-9]{8}[ \-][0-9]{8})$/;
              
-## cégjegyzékszám
+## Cégjegyzékszám
                 
                 re = /^(20|[0-1][0-9])[\- ](20|21|22|23|[0-1][0-9])[\- ]([0-9]{8})$/;
                 if (!re.test(t)) return 'Nem érvényes cegjegyzekszám xx-yy-zzzzzzzzzz.';
